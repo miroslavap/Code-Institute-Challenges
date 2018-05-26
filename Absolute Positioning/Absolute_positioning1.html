@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+     <meta charset="UTF-8">
+     <title>Absolute Positioning</title>
+     <style type= "text/css">
+
+     #container{
+     	width: 960px;
+     
+     	margin-left: auto;
+     	margin-right: auto;
+     	padding: 10px;
+     	border-radius: 10px;
+     	margin-top: 50px;
+     	font-size: 0;
+     }
+
+
+      .box{
+      	width: 100%;
+      	height: 150px;
+      	background-color: #81BBC9;
+      	font-size: 16px;
+      	border-radius: 10px;
+      	display: block;
+      	text-align: center;
+        position: relative;
+      }
+
+      #sidebar{
+      	height: 320px;
+      	display: inline-block;
+      	width: 473px;
+      	margin: 5px 5px -12px 0;
+      	padding- right: 10px;
+      	padding-left: 10px;
+      	-webkit-box-sizing: border-box;
+      	-moz-box-sizing: border-box;
+      	box-sizing: border-box;      	
+      }
+
+      #content{
+      	height: 320px;
+      	display: inline-block;
+      	width: 473px;
+      	margin: 5px 0 -12px 5px;
+      	padding-right: 10px;
+      	padding-left: 10px;
+      	-webkit-box-sizing: border-box;
+      	-moz-box-sizing: border-box;
+      	box-sizing: border-box;
+        position: relative;
+      	
+      }
+      
+      #linkToTop{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+
+      }
+
+      p{
+        bottom-margin: 50px;
+      }
+      </style>
+      </head>
+           <body>
+           <div id= "container">
+           <div class= "box"><h2>Header</h2></div>
+           <div class= "box" id= "sidebar"><h2>Sidebar</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+           
+           <br>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.<br/>
+           </p>
+           </div>
+           <div class= "box" id= "content"><h2>Content</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+           
+           <br>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.<br/>
+           </p>
+           <a href= "#"><img id= "linkToTop" src= "arrow.png" alt="linkToTop"></a>
+           </div>
+           <div class= "box"><h2>Footer</h2></div>
+           </div>
+           </div>
+           </body>
+      </html>
