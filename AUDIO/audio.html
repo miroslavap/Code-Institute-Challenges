@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset= "UTF-8">
+     <title>Audio</title>
+     <style type= "text/css">
+
+     .video{
+     	width: 500px;
+     	height: 400px;
+     	background-color: #81BBC9;
+     	border-radius: 10px;
+     	border: 10px solid black;
+     	margin-right: auto;
+     	margin-left: auto;
+     	margin-top: 50px;
+     }
+
+     .audio{
+     	width: 500px;
+        height: 50px;
+        background-color: #848689;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+       }
+
+       h1{
+       	font-size: 20px;
+       	font-family: Arial, sans-serif;
+       	text-align: center;
+       }
+
+       </style>
+       </head>
+             <body>
+             <div class= "video">
+             <h1>Bunny Video</h1>
+              <video controls= "controls" poster= "Big_Buck_Bunny.jpg.png" alt= " Big_Buck_Bunny" width="500px" height="350px" preload= "auto">
+
+         <source src="MP4_bunny.MP4.mp4"  type= "video/mp4"/>
+         <source src="MP4_bunny_OGV.ogv"  type= "video/ogg"/>
+         <source src="MP4_bunny_WEBM.webm" type= "video/webm"/>
+         </video>
+
+         <div class= "audio">
+         <audio controls= "controls">
+         <source src= "audio/tail.mp3" type= "audio/mpeg; codecs=mp3"/>
+         <source src= "audio/tail.mp3" type= "audio/ogg; codecs=vorbis" preload= "auto"/>
+         </audio>
+         </div>
+         </div>
+         </body>
+    </html>
