@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+     <meta charset= "UTF-8">
+     <title>Positioning and Flow</title>
+     <style type= "text/css">
+
+     #container{
+     	height: 400px;
+     	width: 600px;
+     	background-color: #AA4639;
+     	border-radius: 10px;
+     	padding: 10px;
+     	position:relative;
+     	margin-right: auto;
+     	margin-left: auto;
+     	font-size: 0;
+     	top: 200px;
+     	
+     }
+
+     .box{
+     	width: 150px;
+     	height: 100px;
+     	background-color: #81BBC9;
+     	border-radius: 10px;
+     	margin:0.5px;
+     	display: inline-block;
+     	position: relative;
+     	font-size: 18px;
+     	text-align: center;
+     }
+
+     #box1{
+     	left:140px;
+     	top: 180px;
+     }
+     #box2{
+     	left: 139px;
+     	top: 180px;
+     }
+
+     #box3{
+     	top: 80px;
+     	right:13px;
+     }
+
+     #box4{
+     	bottom: 20px;
+     	left:140px;
+     }
+
+     </style>
+     </head>
+           <body>
+           <div id= "container">
+           <div id= "box1" class="box"><h2>1</h2></div>
+           <div id= "box2" class="box"><h2>2</h2></div>
+           <div id= "box3" class="box"><h2>3</h2></div>
+           <div id= "box4" class="box"><h2>4</h2></div>
+           </div>
+           </body>
+     </html>
