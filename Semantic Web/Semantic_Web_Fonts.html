@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+     <meta charset="UTF-8">
+     <title>Semantic Web Fonts</title>
+     <link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet" type= "text/css">
+     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" type= "text/css">
+     <style type= "text/css">
+
+     body{
+     	background-color: #F5D76E;
+     }
+
+     nav{
+     	font-family: Saira;
+     	margin: 30px auto;
+     	width: 100%;
+     	height: 500px;
+     	border-radius: 10px;
+     	padding: 0px;
+     	display: flex;
+     	flex-direction: row;
+     	list-style-type: none;
+     }
+
+
+     #landing{
+     	display: flex;
+     	flex-direction: column;
+     	justify-content: center;
+     	align-items: center;
+     	flex-direction: row;
+     }
+    
+     #landing-message{
+     	font-size: 50px;
+     	font-family: Dosis;
+     	text-align: center;
+     	margin: 50px 20px;
+     }
+
+     #landing-graphic{
+
+
+     }
+
+     a{
+     	height: 30px;
+     	text-decoration: none;
+     	color: white;
+     	font-family: Dosis;
+     	padding: 20px 20px 20px 20px;
+     	text-align: center;
+     	border-bottom: white;
+     	font-size: 40px;
+     	flex:1;
+     }
+
+     #logoNav{
+     	font-size: 40px;
+     	font-weight: bold;
+     }
+
+     @media screen and(min-width: 700px){
+     	nav{
+     		width: 90%;
+     		flex-flow: row;
+     		align-items: baseline;
+     	}
+     	a{
+     		font-size: 25px;
+     		border: none;
+     	}
+     	#logoNav{
+     		flex: 6;
+     		text-align: left;
+     	}
+     	#landing{
+     		flex-direction: row;
+     		width: 80%;
+     		margin: 100px auto;
+     	}
+
+     	.cards{
+            flex-direction: row;
+            align-items: baseline;
+     	}
+     }
+
+     .cards{
+     	display: flex;
+     	flex-direction: row;
+     	justify-content: center;
+     }
+
+     .card{
+     	background-color: #EAEAEA;
+     	margin: 20px;
+     	padding: 10px;
+     	flex:1;
+     	width: 150px;
+     }
+
+     .card img{
+     	width: 100%;
+     }
+
+     .crad p{
+     	font-family: Saira;
+     	font-size: 22px;
+     }
+
+     </style>
+     </head>
+           <body>
+               <nav>
+               <a id= "logoNav">CODE INSTITUTE</a>
+               <a href= "#">Home</a>
+               <a href= "#">Projects</a>
+               <a href= "#">About</a>
+               <a href= "#">Contact</a>
+               <a href= "#">Photos</a>
+               </nav>
+
+
+
+    <div id= "landing">
+    <div id= "landing-message">
+    <h2>Make Creative Clever Fun Apps.Simple.</h2>
+    </div>
+
+    <div id= "landing-graphic">
+    <img id= "landing-graphic" src="laptop.png" width= "400" alt= "laptop">
+    </div>
+    </div>
+
+    <section class= "cards">
+            <div class= "card">
+            <img src= "graphic1.png" alt= "design pic">
+            <h2>Remote Learning</h2>
+            <p>Once you join Code Institute Bootcamp you will be taken on accelerated contextualised learning path across 3 streams</p>
+            </div>
+
+            <div class= "card">
+            <img src= "graphic2.png" alt= "design pic">
+            <h2>Remote Learning</h2>
+            <p>Once you join Code Institute Bootcamp you will be taken on accelerated contextualised learning path across 3 streams</p>
+            </div>
+
+            <div class= "card">
+            <img src= "graphic3.png" alt= "design pic">
+            <h2>Remote Learning</h2>
+            <p>Once you join Code institute Bootcamp you will be taken on accelerated contextualised learning path across 3 streams</p>
+            </div>
+     </section>
+
+     </body>
+     </html>
