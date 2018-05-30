@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta charset= "UTF-8">
+    <title>Transitions</title>
+    <style type= "text/css">
+
+
+    #container{
+    	width: 960px;
+    	height: 700px;
+    	background-color: #c5c8cc;
+    	margin-right: auto;
+    	margin-left: auto;
+    	margin-top: 50px;
+    	border-radius: 10px;
+    	border: 2px solid #656668;
+    }
+      .box1{
+      width: 250px;
+      height: 100px;
+      border-radius: 10px;
+      border: 1px solid black;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      text-align: center;
+      font-family: Verdana;
+      font-weight: bold;
+      }
+
+      .box2{
+      	width: 250px;
+      	height: 100px;
+      	border-radius: 10px;
+      	border: 1px solid black;
+      	display: block;
+        margin-left: auto;
+        margin-right: auto;
+      	text-align: center;
+      	transform: translate(-200px);
+      	font-family: Verdana;
+      	font-weight: bold;
+      }
+
+      .box2: hover{
+      	width: 250px;
+      	height: 100px;
+      	background-color: #686565;
+      	transition: width 2s, height 2s, background-color 5s;
+      }
+
+      .box3{
+      	width: 250px;
+      	height: 100px;
+      	border-radius: 10px;
+      	border: 1px solid black;
+      	display: block;
+      	margin-left: auto;
+      	margin-right: auto;
+      	text-align: center;
+      	font-family: Verdana;
+      	font-weight: bold;
+      	transform: rotate(30deg);
+      }
+
+      .box4{
+      	width: 250px;
+      	height: 100px;
+      	border-radius: 10px;
+      	border: 1px solid black;
+      	display: block;
+      	margin-left: auto;
+      	margin-right: auto;
+      	text-align: center;
+      	font-family: Verdana;
+      	font-weight: bold;
+      	transform: scale(2, 2);
+      }
+
+      .box5{
+      	width: 250px;
+      	height: 100px;
+      	border-radius: 10px;
+      	border: 1px solid black;
+      	margin-left: auto;
+      	margin-right: auto;
+      	text-align: center;
+      	font-family: Verdana;
+      	font-weight: bold;
+      	transform: skew(0deg, 25deg);
+      }
+      
+
+      
+      </style>
+      </head>
+            <body>
+            <div id = "container">
+            <div class= "box1"><h3>Box</h3></div>
+            <div class= "box2"><h3>I am translated</h3></div>
+            <div class= "box3"><h3>I am rotated</h3></div>
+            <div class= "box4"><h3>I am scaled</h3></div>
+            <div class= "box5"><h3>I am skewed</h3></div>
+            </div>
+            </body>
+     </html>
+
